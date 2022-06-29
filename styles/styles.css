@@ -1,4 +1,8 @@
 /* html elements */
+html {
+    box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(
         90deg,
@@ -20,10 +24,6 @@ header {
     font-weight: bold;
 }
 
-img {
-    width: 400px;
-}
-
 li {
     display: inline;
     margin-right: 12px;
@@ -31,6 +31,7 @@ li {
 
 nav {
     display: flex;
+    justify-content: end;
     left: 0;
     max-height: 60px;
     position: fixed;
@@ -46,13 +47,45 @@ nav {
 
 ul {
     list-style: none;
+    margin-right: 20px;
 }
 /* classes */
 /* ids */
+#about {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 12px;
+    margin-left: 200px;
+}
+
+#about header {
+    grid-column: 1/5;
+    grid-row: 1;
+    top: 0;
+    text-align: center;
+}
+
+#about img {
+    grid-column: 1;
+    grid-row: 2/3;
+    width: 400px;
+    margin: 12px;
+}
+
+#about p {
+    grid-column: 2/4;
+}
+
+#projects {
+    margin-top: 63px;
+    text-align: center;
+}
+
 #welcome {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 63px;
+    margin: 63px;
 }
 /* media queries*/

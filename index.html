@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <title>Profile Webpage</title>
   </head>
@@ -16,13 +20,17 @@
             <li><a href="#welcome">Welcome</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </section>
       <!-- Welcome -->
       <section>
         <div id="welcome">
-          <h1>Welcome to my page.</h1>
+          <h1>
+            Welcome to the page of <br />
+            <a id="name">Raymond E. Runoi</a>
+          </h1>
           <p>Enjoy your visit.</p>
         </div>
       </section>
@@ -35,9 +43,24 @@
             alt="Image of self with arms crossed."
           />
           <p>
-            I am a Business Information Technology student with an emphasis on
-            software development. Originally from the United States I now live
-            as a permanent resident in Finland.
+            Originally from the United States I now live with my family as a permanent resident in Finland.
+            I am currently a Business Information Technology student at Haaga-Helia with an emphasis on software 
+            development. During my studies I have worked as part of a scrum team on two occasions. 
+            During the first of these projects, we worked in two week sprints. For this project I started on a team 
+            working with database creation and setup. Upon completion of the database work the members of this team 
+            were moved to other teams and I was moved to the frontend. While on the frontend team I worked with 
+            creating charts where the user could select the types of data they wanted in the chart or graph and that 
+            data would be pulled from the database and put in the chart. I also worked with the team who was 
+            responsible for setting up the page theme. We selected colors and the general page layout. The second 
+            project I worked on I was on the IoT team. This team was responsible for getting the PIR sensor to work 
+            with the esp32 board and send messages to the backend using an MQTT broker. The DB administrator was also 
+            able to ping each board to ensure they were working if a signal had not been sent for a while.
+            <br /><br />
+            With the experience I have mostly being on the frontend I think I should start in a frontend position. 
+            I am not against starting in a backend position and would like to continue learning more about front and 
+            backend development regardless of where I start. I believe that I am an easy-going person who can 
+            work in a group or by myself.
+            
           </p>
         </div>
       </section>
@@ -46,6 +69,32 @@
         <div id="projects">
           <header>Projects</header>
           <p>Coming soon.</p>
+        </div>
+      </section>
+      <section>
+        <div id="contact">
+          <header>Contact</header>
+          <a
+            id="contact_details"
+            href="https://github.com/rrunoi"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-2x"> GitHub</i>
+          </a>
+          <a
+            id="contact_details"
+            href="https://www.linkedin.com/in/raymond-runoi-4a3593203/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-2x"> Linkedin</i>
+          </a>
+          <a
+            id="contact_details"
+            href="mailto:raymond.runoi@gmail.com"
+            target="_blank"
+          >
+            <i class="fa fa-at fa-2x"> email</i>
+          </a>
         </div>
       </section>
     </main>

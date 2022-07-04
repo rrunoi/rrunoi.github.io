@@ -13,3 +13,7 @@ I used linear gradient to color the background of the body and navbar. Most of t
 ### Still to add
 
 I still need to add some projects to the Projects section.
+
+### index.php and composer.json
+
+These files were needed inorder to deploy to Heroku. I found this information at https://medium.com/analytics-vidhya/deploying-a-static-web-application-to-heroku-3f21e07e58a.

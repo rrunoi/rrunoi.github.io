@@ -2,7 +2,7 @@
 
 ## Link to profile site
 
-https://profile-website-raymond-runoi.herokuapp.com/
+
 
 ### HTML
 
@@ -10,14 +10,10 @@ Basic HTML was used. There is a link in the head element for font-awesome was us
 
 ### CSS
 
-The CSS used was also just basic CSS. The styles.css page is sorted starting with the HTML elements followed by classes, IDs, and ending with media queries.
+Basic CSS was used. The styles.css page is sorted starting with the HTML elements followed by classes, IDs, and ending with media queries.
 
-I used linear gradient to color the background of the body and navbar. Most of the sections make use of the flexbox for positioning the elements.
+Linear gradient for the background. Most of the sections make use of the flexbox for positioning the elements.
 
 ### Still to add
 
 I still need to add some projects to the Projects section.
-
-### index.php and composer.json
-
-These files were needed inorder to deploy to Heroku. I found this information at https://medium.com/analytics-vidhya/deploying-a-static-web-application-to-heroku-3f21e07e58a.

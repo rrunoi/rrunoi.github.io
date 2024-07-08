@@ -145,7 +145,6 @@ ul {
       justify-content: center;
       align-content: center;
       align-items: center;
-      /* margin: 24px 40px; */
    }
    
    #about-text {
@@ -153,8 +152,8 @@ ul {
    }
 
    #about img {
-      margin-right: 0;
       margin-bottom: 18px;
+      margin-right: 0;
       width: 160%;
    }
 
@@ -173,19 +172,13 @@ ul {
 
 @media only screen and (min-width: 1201px) {
    #about-text {
-      margin-right: 120px;
-      width: 40%;
-   }
-
-   #about img {
-      margin-right: 50px;
+      width: 35%;
    }
 
    #about {
+      align-content: center;
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-content: center;
-      /* margin: 24px 40px; */
    }
 }
